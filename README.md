@@ -16,7 +16,7 @@ swift rlhf \
     --train_type full \
     --freeze_vit true \
     --freeze_aligner true \
-    --dataset "path/to//all_dpo.jsonl" \
+    --dataset "path/to/all_dpo.jsonl" \
     --output_dir "output" \
     --load_from_cache_file true \
     --split_dataset_ratio 0.0 \
