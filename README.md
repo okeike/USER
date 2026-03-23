@@ -1,7 +1,7 @@
 # USER
 
 This work is currently submitted to MM 2026, we built on top of the [VSE∞](https://github.com/woodfrog/vse_infty)
-![Method](USER_Method.pdf)
+![Method](USER_Method.png)
 
 The DPO is performed based on [ms-swift](https://github.com/modelscope/ms-swift), version 3.8.0.
 DPO script:
