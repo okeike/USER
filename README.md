@@ -4,7 +4,7 @@ This work is currently submitted to ACM MM 2026, we built on top of the [VSE∞]
 ![Method](USER_Method.png)
 
 The DPO is performed based on [ms-swift](https://github.com/modelscope/ms-swift), version 3.8.0.
-DPO script:
+script:
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 \
 NPROC_PER_NODE=4 \
