@@ -334,11 +334,12 @@ class VSEModel_S1(object):
 
                 most_similar_img_vectors = img_positive_vectors[max_sim_indices]  # N_nouns x D
 
-                diff_vectors = cap_noun_vectors - most_similar_img_vectors  # N_nouns x D
+                loss_cross_sample = F.l1_loss(
+                    cap_noun_vectors,
+                    most_similar_img_vectors,
+                    reduction="mean",
+                )
 
-                diff_normalized = l1norm(diff_vectors, dim=1)  # N_nouns x D
-
-                loss_cross_sample = (diff_normalized.abs().sum())**2
                 loss_cross_list.append(loss_cross_sample)
 
             if len(loss_cross_list) > 0:
