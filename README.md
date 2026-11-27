@@ -1,4 +1,4 @@
-# USER
+# USER: Unifying Scene-learning and Entity-learning Visual Semantic Embeddings for Image-Text Retrieval
 
 This work has been accepted for publication as a regular paper in ***IEEE Transactions on Multimedia (TMM)*** on November 26, 2026. We built on top of [VSE∞](https://github.com/woodfrog/vse_infty)
 ![Method](USER_Method.png)
